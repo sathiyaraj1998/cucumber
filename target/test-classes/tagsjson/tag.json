@@ -1,0 +1,203 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-12-18T15:42:41.280Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33915500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 352100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate2()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "to login for fb",
+        "description": "",
+        "id": "to-login-function-with-fb-and-insta;to-login-for-fb",
+        "after": [
+          {
+            "result": {
+              "duration": 960700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate1(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 525300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3259537000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "launch url for fb",
+            "match": {
+              "location": "FbTag.launchUrlForFb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1866406000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "data diven to pass values for fb",
+            "match": {
+              "location": "FbTag.dataDivenToPassValuesForFb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150759400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browser on fb",
+            "match": {
+              "location": "FbTag.closeBrowserOnFb()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-18T15:42:46.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 280300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 217200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate2()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To login function to Instagram",
+        "description": "",
+        "id": "to-login-function-with-fb-and-insta;to-login-function-to-instagram",
+        "after": [
+          {
+            "result": {
+              "duration": 124500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate1(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 196400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2229287600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "to launch url for insta",
+            "match": {
+              "location": "InstagramTag.toLaunchUrlForInsta()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 802615100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "data driven pass values for insta",
+            "match": {
+              "location": "InstagramTag.dataDrivenPassValuesForInsta()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173111800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the browser for insta",
+            "match": {
+              "location": "InstagramTag.closeTheBrowserForInsta()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regret"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To login function with fb and insta",
+    "description": "",
+    "id": "to-login-function-with-fb-and-insta",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Demo/FbAndInsta.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-12-18T08:27:59.701Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24620300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 432800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate2()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Insta login purpose",
+        "description": "",
+        "id": "insta-and-amazon-login-and-add-to-cart;insta-login-purpose",
+        "after": [
+          {
+            "result": {
+              "duration": 327000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate1(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 296800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2823847400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "launch browser to insta url",
+            "match": {
+              "location": "InstaDriven.launchBrowserToInstaUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1199950800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Insta login values to data driven",
+            "match": {
+              "location": "InstaDriven.instaLoginValuesToDataDriven()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 454900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "close the insta browser",
+            "match": {
+              "location": "InstaDriven.closeTheInstaBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-18T08:28:03.797Z",
+        "before": [
+          {
+            "result": {
+              "duration": 142900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 80200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforedate2()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "amazon add to cart",
+        "description": "",
+        "id": "insta-and-amazon-login-and-add-to-cart;amazon-add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 51600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate1(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 268200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterdate2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2453008100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch amazon url",
+            "match": {
+              "location": "AmazonCart.launchAmazonUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9748799300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "search product and add to cart product",
+            "match": {
+              "location": "AmazonCart.searchProductAndAddToCartProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the amazon browser",
+            "match": {
+              "location": "AmazonCart.closeTheAmazonBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Insta and amazon login and add to cart",
+    "description": "",
+    "id": "insta-and-amazon-login-and-add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Demo/InstaAndAmazon.feature",
+    "tags": []
+  }
+]
