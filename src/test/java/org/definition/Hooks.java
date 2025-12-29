@@ -37,5 +37,6 @@ public class Hooks extends ReusableClass {
 
 		System.out.println("before=2 order=1");
 		
+		System.out.println("2nd commit master");
 }
 }
